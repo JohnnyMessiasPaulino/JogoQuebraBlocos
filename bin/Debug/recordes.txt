@@ -1,0 +1,18 @@
+﻿record1|32|normal|19/06/2020 01:41:39
+J|69|hard|19/06/2020 21:52:57
+recorde2|33|hard|19/06/2020 21:54:22
+J|28|impossivel|19/06/2020 22:01:35
+teste|36|impossivel|19/06/2020 22:02:42
+J|90|hard|23/06/2020 12:16:16
+RECORDE|63|hard|23/06/2020 12:40:12
+Record Teste|12|Normal|26/06/2020 20:11:04
+Record Outro Teste|4|Impossivel|27/06/2020 13:53:23
+Mais um teste|16|Impossivel|27/06/2020 13:55:39
+Record|10|Normal|01/12/2020 23:59:44
+t|60|Normal|02/12/2020 00:00:48
+hard|75|Dificil|02/12/2020 00:01:26
+teste|60|Normal|02/12/2020 00:09:34
+tee|60|Normal|02/12/2020 00:10:15
+tested|90|Dificil|02/12/2020 15:02:33
+d|10|Normal|07/01/2021 02:27:16
+re|60|Normal|23/07/2021 19:03:27

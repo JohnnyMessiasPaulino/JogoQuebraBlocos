@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7C5D144-EB82-447A-8EF0-79EC66C08C16}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JogoQuebraBlocosN2B2</RootNamespace>
+    <AssemblyName>JogoQuebraBlocosN2B2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icone.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frComoJogar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frComoJogar.Designer.cs">
+      <DependentUpon>frComoJogar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frGameOverCadastroPontuacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frGameOverCadastroPontuacao.Designer.cs">
+      <DependentUpon>frGameOverCadastroPontuacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frMemoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frMemoria.Designer.cs">
+      <DependentUpon>frMemoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frMiniGames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frMiniGames.Designer.cs">
+      <DependentUpon>frMiniGames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frListaRecordes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frListaRecordes.Designer.cs">
+      <DependentUpon>frListaRecordes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frNovoJogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frNovoJogo.Designer.cs">
+      <DependentUpon>frNovoJogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frOpcoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frOpcoes.Designer.cs">
+      <DependentUpon>frOpcoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frPedraPapelTesoura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frPedraPapelTesoura.Designer.cs">
+      <DependentUpon>frPedraPapelTesoura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frSobre.Designer.cs">
+      <DependentUpon>frSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frTelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frTelaInicial.Designer.cs">
+      <DependentUpon>frTelaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frVelha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frVelha.Designer.cs">
+      <DependentUpon>frVelha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoOpcoes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frComoJogar.resx">
+      <DependentUpon>frComoJogar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frGameOverCadastroPontuacao.resx">
+      <DependentUpon>frGameOverCadastroPontuacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMemoria.resx">
+      <DependentUpon>frMemoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMiniGames.resx">
+      <DependentUpon>frMiniGames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frListaRecordes.resx">
+      <DependentUpon>frListaRecordes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frNovoJogo.resx">
+      <DependentUpon>frNovoJogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frOpcoes.resx">
+      <DependentUpon>frOpcoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frPedraPapelTesoura.resx">
+      <DependentUpon>frPedraPapelTesoura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frSobre.resx">
+      <DependentUpon>frSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frTelaInicial.resx">
+      <DependentUpon>frTelaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frVelha.resx">
+      <DependentUpon>frVelha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\teclas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icone.ico" />
+    <None Include="Pic\Tesoura.png" />
+    <None Include="Pic\Pedra.png" />
+    <None Include="Pic\Papel.png" />
+    <None Include="Resources\question.png" />
+    <None Include="Resources\img8.png" />
+    <None Include="Resources\img7.png" />
+    <None Include="Resources\img6.png" />
+    <None Include="Resources\img5.png" />
+    <None Include="Resources\img4.png" />
+    <None Include="Resources\img3.png" />
+    <None Include="Resources\img2.png" />
+    <None Include="Resources\img1.png" />
+    <None Include="Resources\23981-catalogar-todos-os-jogos-eletronicos-696x0-1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
